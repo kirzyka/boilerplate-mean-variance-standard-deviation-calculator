@@ -17,10 +17,5 @@ def calculate(list):
         'min': [np.min(arr, axis=0).tolist(), np.min(arr, axis=1).tolist(), np.min(arr).tolist()],
         'sum': [np.sum(arr, axis=0).tolist(), np.sum(arr, axis=1).tolist(), np.sum(arr).tolist()]
     }
-
-
     
-
-
-
     return calculations
